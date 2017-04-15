@@ -12,7 +12,7 @@ When operating in protected mode, the x86 architecture has eight 32-bit general-
 
 ![](http://www.c-jump.com/CIS77/asm_images/gp_registers.jpg)
 
-| REGISTER | PURPOSE |
+| **REGISTER** | **PURPOSE** |
 | :--- | :--- |
 | ECX | Counter in loops |
 | ESI | Source in string/memory operations |
