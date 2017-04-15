@@ -20,6 +20,10 @@ When operating in protected mode, the x86 architecture has eight 32-bit general-
 | EBP | Base frame pointer |
 | ESP | Stack pointer |
 
+The flags in EFLAGS are primarily used to implement conditional branching.
+
+### 
+
 ### Instruction Set
 
 ##### Syntax
