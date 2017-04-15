@@ -8,7 +8,9 @@ This chapter discusses the x86 architecture operating in protected mode. x86 sup
 
 ### Register Set and Data Types
 
-When operating in protected mode, the x86 architecture has eight 32-bit general-purpose registers \(GPRs\): EAX , EBX , ECX , EDX , EDI , ESI , EBP , and ESP . The instruction pointer is stored in the EIP register. 
+When operating in protected mode, the x86 architecture has eight 32-bit general-purpose registers \(GPRs\): EAX , EBX , ECX , EDX , EDI , ESI , EBP , and ESP . The instruction pointer is stored in the EIP register.
+
+                                         ![](http://www.c-jump.com/CIS77/asm_images/gp_registers.jpg)
 
 ### Instruction Set
 
