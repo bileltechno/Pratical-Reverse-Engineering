@@ -20,7 +20,7 @@ When operating in protected mode, the x86 architecture has eight 32-bit general-
 | EBP | Base frame pointer |
 | ESP | Stack pointer |
 
-The flags in EFLAGS are primarily used to implement conditional branching.
+The **EFLAGS** is a 32-bit register used as a collection of bits representing Boolean values to store the results of operations and the state of the processor. The names of these bits are:
 
 ### 
 
