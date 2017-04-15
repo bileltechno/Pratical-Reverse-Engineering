@@ -22,7 +22,7 @@ When operating in protected mode, the x86 architecture has eight 32-bit general-
 
 The **EFLAGS** is a 32-bit register used as a collection of bits representing Boolean values to store the results of operations and the state of the processor. The names of these bits are:
 
-### 
+![](/assets/Selection_007.png) For more information visit this [link](https://en.wikibooks.org/wiki/X86_Assembly/X86_Architecture#EFLAGS_Register).
 
 ### Instruction Set
 
