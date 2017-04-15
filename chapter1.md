@@ -24,6 +24,8 @@ The **EFLAGS** is a 32-bit register used as a collection of bits representing Bo
 
 ![](/assets/Selection_007.png) For more information visit this [link](https://en.wikibooks.org/wiki/X86_Assembly/X86_Architecture#EFLAGS_Register).
 
+The **EIP** register contains the address of the **next **instruction to be executed if no branching is done. EIP can only be read through the stack after a`call`instruction.
+
 ### Instruction Set
 
 ##### Syntax
