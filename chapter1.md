@@ -35,6 +35,9 @@ The x86 instruction set allows a high level of flexibility in terms of data move
 * Immediate to memory
 * Register to memory and vice versa
 * Memory to memory
+
+> A classical RISC architecture like ARM can only read/write data from/to memory with load/store instructions \( LDR and STR , respectively\);
+
 * ##### Syntax
 
 
