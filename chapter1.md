@@ -32,8 +32,10 @@ The x86 instruction set allows a high level of flexibility in terms of data move
 
 * Immediate to register
 * Register to register
-* 
-##### Syntax
+* Immediate to memory
+* Register to memory and vice versa
+* Memory to memory
+* ##### Syntax
 
 
 
