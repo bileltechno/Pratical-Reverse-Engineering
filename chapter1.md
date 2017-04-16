@@ -28,8 +28,11 @@ The **EIP** register contains the address of the **next **instruction to be exec
 
 ### Instruction Set
 
-The x86 instruction set allows a high level of fl exibility in terms of data movement between registers and memory. The movement can be classified into five general methods:
+The x86 instruction set allows a high level of flexibility in terms of data movement between registers and memory. The movement can be classified into five general methods:
 
+* Immediate to register
+* Register to register
+* 
 ##### Syntax
 
 
