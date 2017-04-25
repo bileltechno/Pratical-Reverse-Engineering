@@ -50,5 +50,7 @@ The most common instruction for moving data is MOV:
 
 `02: 8B F1                         mov esi, ecx; set ESI = ECX`
 
+The next common usage is to move data to/from memory.
 
+mov dword ptr \[eax\], 1           ;         s\*eax = 1;        ; set the memory at address EAX to 1; 
 
