@@ -38,11 +38,11 @@ The x86 instruction set allows a high level of flexibility in terms of data move
 
 > A classical RISC architecture like ARM can only read/write data from/to memory with load/store instructions \( LDR and STR , respectively\);
 
-* ##### Syntax
+##### Syntax
 
-Depending on the assembler/disassembler, there are two syntax notations for x86 assembly code, **Intel** and **AT&T**:
+Depending on the assembler/disassembler, there are two syntax notations for x86 assembly code, **Intel** and **AT&T.**In practice, Intel notation is the dominant form and is used throughout this book.
 
-* ##### Data movement
+##### Data movement
 
 
 
