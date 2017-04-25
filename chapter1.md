@@ -52,5 +52,15 @@ The most common instruction for moving data is MOV:
 
 The next common usage is to move data to/from memory.
 
-mov dword ptr \[eax\], 1           ;         s\*eax = 1;        ; set the memory at address EAX to 1; 
+`mov dword ptr [eax], 1           ;*eax = 1;        ;set the memory at address EAX to 1;`
+
+ecx = \*eax;
+
+\*eax = ebx;
+
+\*\(esi+34\) = eax;
+
+eax = \*\(esi+34\);
+
+edx = \*\(ecx+eax\);
 
