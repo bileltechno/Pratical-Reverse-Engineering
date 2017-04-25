@@ -58,7 +58,7 @@ The next common usage is to move data to/from memory.
 
 `mov [eax], ebx                   ;*eax = ebx;       ;set the memory at address EAX to EBX`
 
-;`*(esi+34) = eax;`
+`mov [esi+34h], eax                ;*(esi+34) = eax   ;set the memory address at (ESI+34) to EAX`
 
 ;`eax = *(esi+34);`
 
