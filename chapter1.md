@@ -40,7 +40,7 @@ The x86 instruction set allows a high level of flexibility in terms of data move
 
 * ##### Syntax
 
-##### 
+Depending on the assembler/disassembler, there are two syntax notations for x86 assembly code, **Intel** and **AT&T**:
 
 * ##### Data movement
 
