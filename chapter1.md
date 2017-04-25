@@ -44,5 +44,17 @@ Depending on the assembler/disassembler, there are two syntax notations for x86 
 
 ##### Data movement
 
+The most common instruction for moving data is MOV:
+
+01: BE 3F 00 0F 00        mov esi, 0F003Fh ; set ESI = 0xF003
+
+02: 8B F1                         mov esi, ecx; set ESI = ECX
+
+
+
+
+
+
+
 
 
