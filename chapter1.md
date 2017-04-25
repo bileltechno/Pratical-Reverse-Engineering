@@ -54,7 +54,7 @@ The next common usage is to move data to/from memory.
 
 `mov dword ptr [eax], 1           ;*eax = 1;        ;set the memory at address EAX to 1;`
 
-ecx = \*eax;
+`mov ecx, [eax]                   ;ecx = *eax;       ;set ECX to the value at address EAX`
 
 \*eax = ebx;
 
