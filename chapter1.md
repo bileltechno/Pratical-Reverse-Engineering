@@ -64,7 +64,9 @@ The next common usage is to move data to/from memory.
 
 `mov edx, [ecx+eax]               ;edx = *(ecx+eax)  ;set EDX to the value at address (ECX+EAX)`
 
+We found memory access through a **base register and offset**, where offset can be a register or immediate. This form is commonly \_used to access structure member\_s or data buffers at a location computed at runtime.
+
+`mov [ecx+0Ch], eax`
 
 
-We found memory access through a **base register and offset**, where offset can be a register or immediate. This form is commonly _used to access structure member_s or data buffers at a location computed at runtime.
 
