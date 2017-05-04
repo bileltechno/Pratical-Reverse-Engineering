@@ -68,5 +68,5 @@ We found memory access through a **base register and offset**, where offset can 
 
 `mov [ecx+0Ch], eax`
 
-
+The next memory access form is commonly used to access array-type objects. Generally, the format is as follows: \[Base + Index \* scale\].
 
